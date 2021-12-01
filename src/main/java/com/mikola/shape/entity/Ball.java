@@ -1,4 +1,4 @@
-package entity;
+package com.mikola.shape.entity;
 
 import java.util.Objects;
 

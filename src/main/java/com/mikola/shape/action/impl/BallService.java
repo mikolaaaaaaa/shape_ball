@@ -1,6 +1,6 @@
-package action.impl;
+package com.mikola.shape.action.impl;
 
-import action.ShapeService;
+import com.mikola.shape.action.ShapeService;
 import entity.Ball;
 import exception.BallException;
 import org.apache.logging.log4j.LogManager;

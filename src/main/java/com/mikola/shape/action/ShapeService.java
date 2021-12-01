@@ -1,4 +1,4 @@
-package action;
+package com.mikola.shape.action;
 
 import entity.Ball;
 import exception.BallException;

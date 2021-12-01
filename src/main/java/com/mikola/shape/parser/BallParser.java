@@ -1,10 +1,9 @@
-package parser;
+package com.mikola.shape.parser;
 
-import exception.BallException;
-import validator.BallValidator;
+import com.mikola.shape.exception.BallException;
+import com.mikola.shape.validator.BallValidator;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BallParser {

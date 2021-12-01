@@ -1,6 +1,4 @@
-package entity;
-
-import java.util.Objects;
+package com.mikola.shape.entity;
 
 public class Point {
     private double x;

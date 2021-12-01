@@ -1,6 +1,6 @@
-package action;
+package com.mikola.shape.action;
 
-import action.impl.BallService;
+import com.mikola.shape.action.impl.BallService;
 import entity.Ball;
 import entity.Point;
 import exception.BallException;

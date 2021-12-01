@@ -1,12 +1,10 @@
-package creator;
+package com.mikola.shape.creator;
 
-import entity.Ball;
-import entity.Point;
-import exception.BallException;
+import com.mikola.shape.entity.Ball;
+import com.mikola.shape.entity.Point;
+import com.mikola.shape.exception.BallException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.List;
 
 public class SimpleBallFactory {
     private static final Logger logger = LogManager.getLogger(SimpleBallFactory.class);

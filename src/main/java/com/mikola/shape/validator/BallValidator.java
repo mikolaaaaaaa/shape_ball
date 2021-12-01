@@ -1,6 +1,6 @@
-package validator;
+package com.mikola.shape.validator;
 
-import exception.BallException;
+import com.mikola.shape.exception.BallException;
 
 public class BallValidator {
     private static final String TEMPLATE_REGEX = "([-0-9]+\\.[0-9]+\s+){7}";

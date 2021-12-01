@@ -1,6 +1,6 @@
-package reader;
+package com.mikola.shape.reader;
 
-import exception.BallException;
+import com.mikola.shape.exception.BallException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

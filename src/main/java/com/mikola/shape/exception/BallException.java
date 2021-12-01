@@ -1,4 +1,4 @@
-package exception;
+package com.mikola.shape.exception;
 
 public class BallException extends Exception{
 
