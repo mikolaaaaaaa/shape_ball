@@ -1,0 +1,12 @@
+21-11-28 23:09.436 [main] INFO  reader.BallFileReader - Reading from the file was successful
+21-11-28 23:12.341 [main] INFO  creator.SimpleBallFactory - Ball object created
+21-11-28 23:12.354 [main] INFO  reader.BallFileReader - Reading from the file was successful
+21-11-28 23:15.511 [main] DEBUG action.impl.BallService - Surface area object #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #12.566370614359172
+21-11-28 23:19.234 [main] DEBUG action.impl.BallService - Volume #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #1.0471975511965976
+21-11-28 23:19.248 [main] DEBUG action.impl.BallService - Surface area #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #12.566370614359172
+21-11-28 23:19.255 [main] INFO  creator.SimpleBallFactory - Ball object created
+21-11-28 23:19.265 [main] INFO  reader.BallFileReader - Reading from the file was successful
+21-11-28 23:21.984 [main] DEBUG action.impl.BallService - Volume #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #1.0471975511965976
+21-11-28 23:21.997 [main] DEBUG action.impl.BallService - Surface area #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #12.566370614359172
+21-11-28 23:21.004 [main] INFO  creator.SimpleBallFactory - Ball object created
+21-11-28 23:21.015 [main] INFO  reader.BallFileReader - Reading from the file was successful

@@ -1,0 +1,4 @@
+21-12-01 18:15.360 [main] DEBUG action.impl.BallService - Volume #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #1.0471975511965976
+21-12-01 18:15.378 [main] DEBUG action.impl.BallService - Surface area #Ball{center=Point{x=1.0, y=1.0, z=1.0}, radius=1.0} is #12.566370614359172
+21-12-01 18:15.384 [main] INFO  creator.SimpleBallFactory - Ball object created
+21-12-01 18:15.394 [main] INFO  reader.BallFileReader - Reading from the file was successful
