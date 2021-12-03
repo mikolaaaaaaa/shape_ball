@@ -1,13 +1,13 @@
 package com.mikola.shape.action.impl;
 
-import com.mikola.shape.action.ShapeService;
-import entity.Ball;
-import exception.BallException;
+import com.mikola.shape.action.ShapeLogic;
+import com.mikola.shape.entity.Ball;
+import com.mikola.shape.exception.BallException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class BallService implements ShapeService {
-    private static final Logger logger = LogManager.getLogger(BallService.class);
+public class BallLogic implements ShapeLogic {
+    private static final Logger logger = LogManager.getLogger(BallLogic.class);
 
     @Override
     public double calculateSurfaceArea(Ball ball) throws BallException {

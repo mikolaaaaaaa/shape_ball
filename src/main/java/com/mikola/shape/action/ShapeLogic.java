@@ -1,9 +1,9 @@
 package com.mikola.shape.action;
 
-import entity.Ball;
-import exception.BallException;
+import com.mikola.shape.entity.Ball;
 
-public interface ShapeService {
+
+public interface ShapeLogic {
     public double calculateSurfaceArea(Ball ball) throws Exception;
     public double calculateVolume(Ball ball) throws Exception;
     public boolean isBall(Ball ball) throws Exception;
