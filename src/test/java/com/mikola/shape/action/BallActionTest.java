@@ -1,9 +1,9 @@
 package com.mikola.shape.action;
 
-import com.mikola.shape.action.impl.BallService;
-import entity.Ball;
-import entity.Point;
-import exception.BallException;
+import com.mikola.shape.action.impl.BallLogic;
+import com.mikola.shape.entity.Ball;
+import com.mikola.shape.entity.Point;
+import com.mikola.shape.exception.BallException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,14 +13,14 @@ public class BallActionTest {
     Ball firstBall;
     Ball secondBall;
     Ball thirdBall;
-    BallService ballService;
+    BallLogic ballService;
 
     @BeforeEach
     public void setUp() {
         firstBall = new Ball(new Point(1f,1f,1f),1f);
         secondBall = new Ball(new Point(2f,2f,2f),1);
         thirdBall = new Ball(new Point(1f,2f,3f),0);
-        ballService = new BallService();
+        ballService = new BallLogic();
     }
 
     @Test

@@ -1,8 +1,9 @@
-package creator;
+package com.mikola.shape.creator;
 
-import entity.Ball;
-import entity.Point;
-import exception.BallException;
+
+import com.mikola.shape.entity.Ball;
+import com.mikola.shape.entity.Point;
+import com.mikola.shape.exception.BallException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,6 +1,6 @@
-package parser;
+package com.mikola.shape.parser;
 
-import exception.BallException;
+import com.mikola.shape.exception.BallException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.assertThat;

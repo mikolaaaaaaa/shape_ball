@@ -1,6 +1,6 @@
-package reader;
+package com.mikola.shape.reader;
 
-import exception.BallException;
+import com.mikola.shape.exception.BallException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +14,7 @@ public class BallFileReaderTest {
                 "1a 1 1 1 1 1",
                 "2 2 2 2 2 2 2"
         );
-        String path = "C:\\Users\\Mikola\\IdeaProjects\\Shape\\src\\main\\resources\\data.txt";
+        String path ="src/test/resources/data.txt";
         List<String> actual = BallFileReader.readBallFromFile(path);
         Assertions.assertEquals(expected, actual);
     }

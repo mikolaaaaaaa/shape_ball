@@ -1,6 +1,6 @@
-package validator;
+package com.mikola.shape.validator;
 
-import exception.BallException;
+import com.mikola.shape.exception.BallException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
